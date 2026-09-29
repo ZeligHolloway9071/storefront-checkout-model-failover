@@ -1,0 +1,17 @@
+{
+  "name": "storefront-model-failover",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/checkout_failover.ts",
+    "test": "node --experimental-strip-types src/checkout_failover.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "openai": "^4.80.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}
